@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;   
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ overflow:hidden;
+ 
+}
+a{
+    text-decoration: none;
+    color: #080808;
+}
+
+
+.formulario{
+
+    display: flex;
+    margin: 0 10px;
+    height: 70vh;
+
+    margin-top: 10vh;
+
+}
+.container{
+
+   
+}
+
+.anime{
+    margin-right: 50px;
+
+    height: 90%;
+
+ 
+    transition: all ease 2s;
+}
+
+.anime:hover{
+
+    transition: all ease 2s;
+
+}
+
+.dados{
+    margin-top: 50px;
+}
+
+.container h2{
+    color: #002d9b;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.container p{
+    text-align: center;
+    color: #615e5e;
+    font-size: 15px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #002d9b;
+}
+label:hover{
+    color: #00a00b;
+    transition: all ease 1s;
+
+}
+input{
+    border: 1px solid #002d9b;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    color: #f00010;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:hover{
+    transition: all ease 0.3s;
+    border: 1px solid #00a00b
+    color: #002d9b;
+}
+
+.botao{
+    width: 100%;
+    margin: 50px 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+button{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.btn1{
+   border: 1px solid #002d9b;
+}
+.btn1:hover{
+    transition: all ease 1s;
+    cursor:pointer;
+  border: 1px solid #00a00b
+
+}
+
+.btn2{
+   background-color: #002d9b;
+}
+.btn2:hover{
+    transition: all ease 1s;
+    cursor: pointer;
+    background-color: #00a00b;
+
+}
+
+
+ .credito {
+    padding-top:  10vh;
+    transition: all ease-in-out 1s
+
+}
+footer{
+    color: #002d9b;
+    text-align: center;
+  height: 20vh;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 1s
+
+}
+.credito:hover{
+    color: #f00010;
+    transition: all ease-in-out 1s
+}
+
